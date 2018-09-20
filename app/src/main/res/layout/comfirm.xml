@@ -1,0 +1,39 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="150dp"
+    android:layout_width="320dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<TextView
+    android:background="@drawable/ripple"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:id="@+id/content"
+android:layout_height="100dp"
+android:layout_width="320dp"
+/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="320dp"
+        android:layout_height="50dp">
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+             android:id="@+id/cancle"
+            android:text="取消"
+            android:background="@drawable/ripple_comfirm"
+            android:layout_width="160dp"
+            android:layout_height="match_parent" />
+        <TextView
+android:textSize="20dp"
+        android:gravity="center"
+            android:textColor="@color/colorAccent"
+             android:id="@+id/ok"
+            android:text="确定"
+            android:background="@drawable/ripple_comfirm"
+            android:layout_width="160dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

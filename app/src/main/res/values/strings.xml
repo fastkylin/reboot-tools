@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">reboot-tools</string>
+<string name="ok">确定</string>
+    <string name="data">/Android/data/com.fastkylin.reboot_tools/files/data/</string>
+</resources>
